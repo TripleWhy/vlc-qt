@@ -39,12 +39,16 @@ SET(VLCQT_EXTERN_SRCS
 
     SharedExportExtern.h
     WidgetSeekSlider.cpp
+    WidgetVolumeSlider2.cpp
+    SoundWidget.cpp
 )
 
 # Define the Include files
 SET(VLCQT_EXTERN_EXPORT_HEADERS
     SharedExportExtern.h
     WidgetSeekSlider.h
+    WidgetVolumeSlider2.h
+    SoundWidget.h
 )
 SET(VLCQT_EXTERN_HEADERS
     qt4.hpp

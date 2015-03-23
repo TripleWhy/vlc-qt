@@ -524,7 +524,7 @@ SoundSlider::SoundSlider( QWidget *_parent, float _i_step,
     QLinearGradient gradient2( paddingL, 2, WLENGTH + paddingL , 2 );
 
     QStringList colorList = qfu( psz_colors ).split( ";" );
-    free( psz_colors );
+//    free( psz_colors );
 
     /* Fill with 255 if the list is too short */
     if( colorList.count() < 12 )
