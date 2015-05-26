@@ -11,3 +11,6 @@ demo-player.pro.user*
 
 # Debian/build
 obj*
+
+# Ignore contribs dir
+contribs/
